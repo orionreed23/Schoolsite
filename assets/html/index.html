@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>School Website</title>
+
+  <!-- SF Pro Display (via CDN) -->
+  <link href="https://fonts.cdnfonts.com/css/sf-pro-display" rel="stylesheet">
+
+  <!-- Lucide Icons (CDN) -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <!-- Header / Navigation -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <img src="../images/logo/logo.webp" alt="School Logo" class="school-logo">
+        H.M. Education Centre
+      </div>
+      <ul class="nav-links">
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="academics.html">Academics</a></li>
+        <li><a href="admissions.html">Admissions</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section with Carousel -->
+  <section class="hero">
+    <div class="hero-slides">
+      <div class="slide active"></div>
+      <div class="slide"></div>
+      <div class="slide"></div>
+      <div class="slide"></div>
+    </div>
+    <div class="hero-content">
+      <h1>Welcome to H.M. Education Centre</h1>
+      <p>Excellence in Education, Innovation, and Community.</p>
+      <a href="admissions.html" class="cta-btn">
+        <i data-lucide="arrow-right"></i> Apply Now
+      </a>
+    </div>
+  </section>
+
+  <!-- Stats Section -->
+  <section class="stats">
+    <h2>Our Achievements</h2>
+    <div class="stats-container">
+      <div class="stat-card">
+        <h3 class="counter" data-target="2.9" data-suffix="K">0</h3>
+        <p>Students</p>
+      </div>
+      <div class="stat-card">
+        <h3 class="counter" data-target="100" data-suffix="+">0</h3>
+        <p>Skilled Educators</p>
+      </div>
+      <div class="stat-card">
+        <h3 class="counter" data-target="98.6" data-suffix="%">0</h3>
+        <p>Topper Marks (Last Year)</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose Us Section -->
+  <section class="why">
+    <h2>Why Choose Us</h2>
+    <ul class="why-list">
+      <li>
+        <i data-lucide="award"></i>
+        <span><b>Academic Excellence:</b> Our students consistently achieve top ranks at both the national and state levels, a testament to their exceptional academic performance and our rigorous educational program.</span>
+      </li>
+      <li>
+        <i data-lucide="building-2"></i>
+        <span><b>Cutting-Edge Infrastructure:</b> We are committed to progress and development, which is why our campus features a highly advanced infrastructure designed to support a dynamic and forward-thinking learning environment.</span>
+      </li>
+      <li>
+        <i data-lucide="book-open"></i>
+        <span><b>Resource-Rich Facilities:</b> Our well-equipped laboratories and extensive library are vital hubs for academic and scientific exploration, providing students with the resources they need to thrive.</span>
+      </li>
+      <li>
+        <i data-lucide="dribbble"></i>
+        <span><b>Sports and Recreation:</b> The school grounds include a dedicated basketball court, a spacious football field, and a children's playground, offering diverse opportunities for physical activity and recreation.</span>
+      </li>
+      <li>
+        <i data-lucide="shield"></i>
+        <span><b>Campus Security:</b> The entire school is monitored by a comprehensive CCTV surveillance system, ensuring the safety and security of all students and staff.</span>
+      </li>
+      <li>
+        <i data-lucide="wind"></i>
+        <span><b>Optimal Learning Environment:</b> Our classrooms are thoughtfully designed with excellent ventilation to create a comfortable and conducive atmosphere for effective learning.</span>
+      </li>
+      <li>
+        <i data-lucide="bus"></i>
+        <span><b>Convenient Transportation:</b> A reliable transport service is available to provide students with a safe and convenient way to commute to and from school.</span>
+      </li>
+      <li>
+        <i data-lucide="smartphone"></i>
+        <span><b>Integrated School Platform:</b> We have developed a dedicated school app to streamline communication and provide easy access to essential information for students, parents, and faculty.</span>
+      </li>
+    </ul>
+  </section>
+
+  <!-- About Section -->
+  <section class="about">
+    <h2>About Us</h2>
+    <p>
+      H.M. Education Centre is a co-educational, English-medium school and an authorized center of the NIOS (National Institute of Open Schooling), located in the pristine surroundings of Hind Motor Colony. The peaceful campus is away from the din and bustle of city life, providing an ideal environment to foster creativity and individualistic thinking in students. The beautifully landscaped campus, which includes a school building, offers a harmonious space that emphasizes regard for nature.
+    </p>
+    <a href="about.html" class="about-link">Learn More →</a>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 H.M. Education Centre. All Rights Reserved.</p>
+    <div class="school-info">
+      <p>CBSE Affiliation Number - 2430188 | School Code - 15631 | National Institute Of Open Schooling (NIOS) AI Number - 220135</p>
+    </div>
+    <div class="social-icons">
+      <i data-lucide="facebook"></i>
+      <i data-lucide="twitter"></i>
+      <i data-lucide="instagram"></i>
+    </div>
+  </footer>
+
+  <!-- Init Lucide -->
+  <script>
+    lucide.createIcons();
+  </script>
+  <script src="../js/main.js"></script>
+</body>
+</html>
