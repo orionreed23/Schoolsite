@@ -142,3 +142,17 @@
   transform: translateY(-2px);
   box-shadow: 0 6px 16px rgba(0,0,0,0.15);
 }
+
+.admissions-link {
+  display: block;  /* makes it appear on a new line */
+  margin-top: 0.5rem;
+  color: #0055cc;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.admissions-link:hover {
+  text-decoration: underline;
+  color: #003399;
+}
