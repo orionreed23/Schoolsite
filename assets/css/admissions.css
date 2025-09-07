@@ -1,0 +1,144 @@
+/* ===== Admissions Page Styles ===== */
+.admissions {
+  max-width: 1000px;
+  margin: 4rem auto;
+  padding: 2rem 1rem;
+}
+
+.admissions h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #222;
+  position: relative;
+}
+
+.admissions h2::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #0055cc;
+  margin: 0.5rem auto 0;
+  border-radius: 2px;
+}
+
+.admissions .intro {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto 3rem;
+  font-size: 1.1rem;
+  color: #444;
+  line-height: 1.7;
+}
+
+/* Timeline */
+.timeline {
+  position: relative;
+  margin: 3rem 0;
+  padding-left: 2rem;
+  border-left: 3px solid #0055cc;
+}
+
+.timeline-item {
+  margin-bottom: 2rem;
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+}
+
+.timeline-icon {
+  position: absolute;
+  left: -18px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #0055cc;
+  color: #fff;
+  font-weight: 600;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.9rem;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+}
+
+.timeline-content {
+  background: #f9f9f9;
+  padding: 1.2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+  line-height: 1.6;
+  margin-left: 1rem;
+  flex: 1;
+}
+
+.timeline-content h4 {
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: #003399;
+}
+
+/* Eligibility, Dates, Contact */
+.eligibility, .dates, .admission-contact {
+  margin-top: 3rem;
+}
+
+.eligibility h3, .dates h3, .admission-contact h3 {
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.eligibility h3::after,
+.dates h3::after,
+.admission-contact h3::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: #0055cc;
+  margin: 0.5rem auto 0;
+  border-radius: 2px;
+}
+
+.eligibility ul {
+  padding-left: 1.2rem;
+  list-style: disc;
+}
+
+.eligibility ul li {
+  margin-bottom: 0.6rem;
+  color: #444;
+  line-height: 1.6;
+}
+
+.dates p, .admission-contact p {
+  color: #444;
+  margin-bottom: 0.6rem;
+  line-height: 1.6;
+}
+
+.download-btn {
+  display: inline-block;
+  background-color: #0055cc;
+  color: #fff;
+  font-weight: 600;
+  padding: 0.8rem 1.6rem;
+  border-radius: 8px;
+  text-decoration: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+}
+
+.download-btn:hover {
+  background-color: #003399;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+}

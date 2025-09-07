@@ -1,2 +1,0 @@
-# Schoolsite
-A school site

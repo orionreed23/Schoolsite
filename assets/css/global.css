@@ -1,0 +1,109 @@
+/* ====== Global Styles ====== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'SF Pro Display', sans-serif;
+  line-height: 1.6;
+  color: #222;
+  background: #fff;
+
+  /* Disable text selection globally */
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none;    /* Firefox */
+  -ms-user-select: none;     /* IE/Edge */
+  user-select: none;         /* Standard */
+}
+
+/* ====== Navbar ====== */
+header {
+  background: #fff;
+  border-bottom: 1px solid #eee;
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Logo + text side by side */
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #222;
+  gap: 0.75rem; /* spacing between logo and text */
+}
+
+/* Logo image */
+.school-logo {
+  height: 45px; /* adjust size */
+  width: auto;
+  display: block;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #222;
+  font-weight: 500;
+  transition: color 0.2s ease-in-out;
+}
+
+.nav-links a:hover {
+  color: #0055cc;
+}
+
+/* ====== Footer ====== */
+footer {
+  background: #f9f9f9;
+  text-align: center;
+  padding: 2rem 1rem;
+  margin-top: 4rem;
+  border-top: 1px solid #eee;
+}
+
+footer p {
+  margin-bottom: 1rem;
+  color: #555;
+  font-size: 0.9rem;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.social-icons i {
+  width: 22px;
+  height: 22px;
+  stroke: #444;
+  cursor: pointer;
+  transition: stroke 0.2s ease-in-out;
+}
+
+.social-icons i:hover {
+  stroke: #0055cc;
+}
