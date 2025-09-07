@@ -111,3 +111,23 @@ function animateCount(el) {
 })();
 
 lucide.createIcons();
+
+// ===== Mobile Sidebar Toggle =====
+const mobileMenuBtn = document.querySelector(".mobile-menu-btn");
+const mobileSidebar = document.querySelector(".mobile-sidebar");
+const closeSidebarBtn = document.querySelector(".close-sidebar");
+const overlay = document.querySelector(".overlay");
+
+function openSidebar() {
+  mobileSidebar.style.right = "0";
+  overlay.style.display = "block";
+}
+
+function closeSidebar() {
+  mobileSidebar.style.right = "-100%";
+  overlay.style.display = "none";
+}
+
+mobileMenuBtn?.addEventListener("click", openSidebar);
+closeSidebarBtn?.addEventListener("click", closeSidebar);
+overlay?.addEventListener("click", closeSidebar);
