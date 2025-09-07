@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="../css/global.css">
   <link rel="stylesheet" href="../css/contact.css">
   <!-- Lucide Icons CDN -->
-  <script src="https://cdn.jsdelivr.net/npm/lucide/dist/lucide.min.js"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
 </head>
 <body>
 
@@ -26,6 +26,28 @@
       </ul>
     </nav>
   </header>
+
+  <!-- Mobile Header -->
+    <header class="mobile-header">
+        <div class="mobile-logo">H.M. Education Centre</div>
+        <button class="mobile-menu-btn" aria-label="Open Menu">
+        <i data-lucide="menu"></i>
+        </button>
+    </header>
+
+    <!-- Mobile Sidebar -->
+    <aside class="mobile-sidebar">
+        <button class="close-sidebar" aria-label="Close Menu">
+        <i data-lucide="x"></i>
+        </button>
+        <ul class="mobile-nav-links">
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="academics.html">Academics</a></li>
+        <li><a href="admissions.html">Admissions</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </aside>
 
   <!-- ===== Contact Section ===== -->
   <main>
@@ -79,6 +101,7 @@
     </div>
   </footer>
 
+  <script src="../js/main.js"></script>
   <script>
     lucide.replace();
   </script>

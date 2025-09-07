@@ -236,3 +236,23 @@
   overflow: hidden;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
+
+/* ===== Leadership Mobile Layout ===== */
+@media (max-width: 768px) {
+  .leader-inner {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .leader-inner h3 {
+    margin-bottom: 0.5rem;
+  }
+
+  .leader-photo {
+    margin-bottom: 1rem;
+  }
+
+  .leader-text {
+    text-align: left; /* keep paragraphs easy to read */
+  }
+}
